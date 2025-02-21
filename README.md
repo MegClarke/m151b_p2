@@ -1,5 +1,7 @@
 # M151M Project #2 : Gshare predictor
 
+By: Zane LaBute and Meagan Clarke
+
 **Description**:
 
 In this project, you will design a Gshare branch predictor for a RISC-V
