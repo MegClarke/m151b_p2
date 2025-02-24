@@ -65,7 +65,7 @@ public:
     uint32_t BTB_shift_;               // genuinely not sure what this is for
     uint32_t BTB_mask_;                // this is literally just 0b11111111 so that we can zero out everything except last 8 bits of the PC
     uint32_t BHR_mask_;                // this is literally just 0b11111111 so that we can zero out everything except last 8 bits of the BHR
-
+    uint32_t TAG_mask_;                 // uses the upper 22 bits of the PC to identify the same BTB entry 0xFFFFFC00 select the upper 22 bits
 };
 
 class GSharePlus : public BranchPredictor {
